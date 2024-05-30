@@ -1,0 +1,100 @@
+.bg-f8f8 {
+    background: #f8f8f8;
+}
+
+.p-30-20 {
+    padding: 30px 20px;
+}
+
+.p-5-10 {
+    padding: 5px 10px;
+}
+
+.h-35 {
+    height: 35px;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.ml-5 {
+    margin-right: 40px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-file-upload img {
+    width: 100px;
+
+    /* Điều chỉnh kích thước ảnh theo nhu cầu */
+    height: auto;
+    /* Giữ tỷ lệ khung hình */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#fileInput {
+    display: none;
+}
+
+/* Hiệu ứng khi hover */
+.custom-file-upload:hover img {
+    border-color: #007BFF;
+    /* Màu sắc khi hover */
+}
+
+.incon {
+    margin-right: 10px;
+}
+
+.card_body_ul li .title-info {
+    line-height: 40px;
+    display: block;
+    padding: 0 10px 0 50px;
+    background-position: 18px 10px;
+    background-repeat: no-repeat;
+}
+
+ul li:nth-child(1) .title-info {
+    background-image: url(https://bizweb.dktcdn.net/100/438/408/themes/936254/assets/acc_user_1.svg);
+}
+
+ul li:nth-child(2) .title-info {
+    background-image: url(https://bizweb.dktcdn.net/100/438/408/themes/936254/assets/acc_user_2.svg);
+}
+
+ul li:nth-child(3) .title-info {
+    background-image: url(https://bizweb.dktcdn.net/100/438/408/themes/936254/assets/acc_user_3.svg);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.bg-form {
+    background: #f1f1f1;
+    background-clip: padding-box;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    font-size: 15px;
+    height: 48px;
+    line-height: 1.5;
+    padding: 0 15px;
+    vertical-align: baseline;
+    width: 100%;
+    color: #000;
+}
+.bg-Profile {
+    background-image: url(../../public/img/bg-fromProfile.webp);
+}

@@ -1,0 +1,36 @@
+.w-35 {
+    width: 25% !important;
+}
+
+.menu_user_header {
+    background: #2F3F61;
+}
+
+.fs-1-5 {
+    font-size: 1.5rem !important;
+}
+
+.bg-gray {
+    background: #F5F5F5;
+}
+
+.bg-blue {
+    background: #33426B;
+}
+
+.text-user {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.p-2-5 {
+    padding: 15px 25px;
+    border-radius: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.p-2-5:hover {
+    transform: scale(1.1);
+}
