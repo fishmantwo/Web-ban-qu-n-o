@@ -13,8 +13,7 @@ class productModel {
             "SELECT product.*, img.img_main_pro
             FROM product
             JOIN productimg img ON product.id_img = img.id_img
-            ORDER BY product.id_product DESC
-            LIMIT 5;"
+            ORDER BY product.id_product DESC"
         );
     }
     public function getAll_detailProduct() {

@@ -185,7 +185,6 @@
             }
         });
     });
-    // console.log(selcetStatus);
 </script>
 
 <?php

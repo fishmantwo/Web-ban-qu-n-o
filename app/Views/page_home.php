@@ -29,6 +29,7 @@
           <div class="row d-flex justify-content-end">
             <?php $i = 0; ?>
             <?php foreach ($productsWithCatalog as $sp) : ?>
+              <?php if($i < 4){?>
               <?php
               $saleShow = '';
               if ($sp['sale_Pro'] > 0) {
@@ -45,7 +46,7 @@
                 ';
               }
               ?>
-              <div class="coll-2">
+              <div class="col-sm-3">
                 <div class="product">
                   <div class="product-img">
                     <a href="<?= APPURL ?>?url=Product/product_detail/<?= $sp['id_product'] ?>">
@@ -56,10 +57,10 @@
                   <div class="product-details">
                     <h5><?= $sp['name_Pro'] ?></h5>
                     <p><?= $saleShow ?></p>
-
                   </div>
                 </div>
               </div>
+              <?php }?>
               <?php $i++; ?>
             <?php endforeach ?>
           </div>
